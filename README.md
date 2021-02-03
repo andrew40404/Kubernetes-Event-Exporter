@@ -24,9 +24,9 @@
 
 - Choose **classic** or **VPC** , read the docs and choose the most suitable type for yourself
 
-  ![Kubernetes Event Exporter_html_4d3a968071544952](https://user-images.githubusercontent.com/5286796/106395900-cfa47e00-642a-11eb-812a-92c17872b42d.png)
+![Kubernetes Event Exporter_html_4d3a968071544952](https://user-images.githubusercontent.com/5286796/106395900-cfa47e00-642a-11eb-812a-92c17872b42d.png)
 
-- Now choose your location settings,
+- Now choose your location settings
 
 - Choose **Geography** (continent)
 
