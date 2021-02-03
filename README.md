@@ -1,4 +1,4 @@
-This document will describe how to install ASP.Net on IBM Cloud using Kubernetes services.
+This document will describe how to install Kubernetes Event Exporter on IBM Cloud using Kubernetes services.
 
 **Step 1 - provision Kubernetes Cluster**
 
