@@ -10,7 +10,7 @@ This document will describe how to install Kubernetes Event Exporter on IBM Clou
 
 - You are now at the Kubernetes deployment page. You need to specify some information about the cluster.
 
-- Choose either of the following plans; **standard** or **free**. The free plan only have one worker node and no subnet. To provision a standard cluster. You will need to upgrade your account to Pay-As-You-Go
+- Choose either of the following plans; **standard** or **free**. The free plan only have one worker node and no subnet. To provision a standard cluster. You will need to         upgrade your account to Pay-As-You-Go
 - To upgrade to a Pay-As-You-Go account, complete the following steps:
 - In the console, go to Manage > Account.
 - Select Account settings and click `Add credit card`.
@@ -35,7 +35,7 @@ This document will describe how to install Kubernetes Event Exporter on IBM Clou
 - Choose a Worker node setup or use the preselected one. SSet Worker node amount per zone
 - Choose **Master Service Endpoint**. 
 
-> In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints.
+> In VRF-enabled accounts, you can choose private-only to make your master accessible on the private network or via VPN tunnel. Choose public-only to make your master publicly     accessible. When you have a VRF-enabled account, your cluster is set up by default to use both private and public endpoints.
    
 - Give desired **tags** to your cluster, for more information visit tags
 - Click **create**
@@ -87,8 +87,6 @@ $ helm delete my-release
 The command removes all the Kubernetes components associated with the chart and deletes the release.
 
 **Kubernetes Event Exporter parameters**
-
-
  
 
 | **Parameter**       | **Description**                                              | **Default**                                                  |      |
