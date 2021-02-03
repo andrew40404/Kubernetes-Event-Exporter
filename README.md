@@ -8,7 +8,7 @@
 
 - Search for **Kubernetes Service** and click on it
 
-  ![Kubernetes Event Exporter_html_46d1c04e26ba5eea](https://user-images.githubusercontent.com/5286796/106395901-d0d5ab00-642a-11eb-9e44-01e69e7fd5d9.png)
+![Kubernetes Event Exporter_html_46d1c04e26ba5eea](https://user-images.githubusercontent.com/5286796/106395901-d0d5ab00-642a-11eb-9e44-01e69e7fd5d9.png)
 
 - You are now at the Kubernetes deployment page. You need to specify some details about the cluster
 
