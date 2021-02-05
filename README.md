@@ -95,5 +95,5 @@ The command removes all the Kubernetes components associated with the chart and 
 | config.receivers    | Array containing event receivers                             |[ {"name": "dump", "file": { "path":	"/dev/stdout" }}]        |
 | Config.route.routes | Array containing event route configuration          |                                                              |  
 
-
+Now Enjoy !!
  
