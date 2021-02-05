@@ -73,7 +73,6 @@ To install the chart with the release name my-release:
 $ helm repo add bitnami https://charts.bitnami.com/bitnami
 $ helm install my-release bitnami/kubernetes-event-exporter
 ```
-
 These commands deploy Kubernetes Event Exporter on the Kubernetes cluster in the default configuration. The [Parameters](https://hub.kubeapps.com/#%23parameters) section lists the parameters that can be configured during installation.
 
 ## **Uninstalling the Chart**
@@ -89,12 +88,12 @@ The command removes all the Kubernetes components associated with the chart and 
 **Kubernetes Event Exporter parameters**
  
 
-| **Parameter**       | **Description**                                              | **Default**                                                  |      |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| config.logFormat    | How 			the logs are formatted. Allowed values: pretty or json | pretty                                                       |      |
-| config.logLevel     | Verbosity 			of the logs (options: fatal, error, warn, info or debug) | debug                                                        |      |
-| config.receivers    | Array 			containing event receivers                 | [ 			{"name": "dump", "file": { "path": 			"/dev/stdout" }} ] |      |
-| Config.route.routes | Array 			containing event route configuration       |                                                              |      |
+| **Parameter**       | **Description**                                              | **Default**                                                  |      
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | 
+| config.logFormat    | How the logs are formatted. Allowed values: pretty or json   | pretty                                                       |   
+| config.logLevel     | Verbosity of the logs(options:fatal,error,warn,info or debug)| debug                                                        |             
+| config.receivers    | Array containing event receivers                             |[ {"name": "dump", "file": { "path":	"/dev/stdout" }}]        |
+| Config.route.routes | Array containing event route configuration          |                                                              |  
 
 
  
