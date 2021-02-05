@@ -54,7 +54,7 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 - Give a **name** to this workspace
 - Click **install** and wait for the deployment
 
-# **Step 3 **Installing **Kubernetes Event Exporter**
+# **Step 3 Installing **Kubernetes Event Exporter**
 
 ## Introduction
 
