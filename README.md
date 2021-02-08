@@ -1,3 +1,5 @@
+# Installing Kubernetes on IBM Cloud
+
 This document will describe how to install Kubernetes Event Exporter on IBM Cloud using Kubernetes services.
 
 **Step 1 - provision Kubernetes Cluster**
@@ -54,18 +56,18 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 - Give a **name** to this workspace
 - Click **install** and wait for the deployment
 
-# **Step 3 Installing **Kubernetes Event Exporter**
+**Step 3 Installing **Kubernetes Event Exporter**
 
-## Introduction
+**Introduction**
 
 This chart bootstraps a Kubernetes Event Exporter deployment on a Kubernetes cluster using the Helm package manager.
 
-## Prerequisites
+**Prerequisites**
 
 - Kubernetes 1.12+
 - Helm 3.1.0
 
-## **Installing the Chart**
+**Installing the Chart**
 
 To install the chart with the release name my-release:
 
@@ -75,7 +77,7 @@ $ helm install my-release bitnami/kubernetes-event-exporter
 ```
 These commands deploy Kubernetes Event Exporter on the Kubernetes cluster in the default configuration. The [Parameters](https://hub.kubeapps.com/#%23parameters) section lists the parameters that can be configured during installation.
 
-## **Uninstalling the Chart**
+**Uninstalling the Chart**
 
 To uninstall/delete the my-release deployment:
 
