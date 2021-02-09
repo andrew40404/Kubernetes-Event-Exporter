@@ -56,7 +56,7 @@ The Block Storage plug-in is a persistent, high-performance iSCSI storage that y
 - Give a **name** to this workspace
 - Click **install** and wait for the deployment
 
-**Step 3 Installing **Kubernetes Event Exporter**
+**Step 3 Installing Kubernetes Event Exporter**
 
 **Introduction**
 
@@ -94,8 +94,8 @@ The command removes all the Kubernetes components associated with the chart and 
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | 
 | config.logFormat    | How the logs are formatted. Allowed values: pretty or json   | pretty                                                       |   
 | config.logLevel     | Verbosity of the logs(options:fatal,error,warn,info or debug)| debug                                                        |             
-| config.receivers    | Array containing event receivers                             |[ {"name": "dump", "file": { "path":	"/dev/stdout" }}]        |
-| Config.route.routes | Array containing event route configuration          |                                                              |  
+| config.receivers    | Array containing event receivers                             |[{"name": "dump", "file": { "path":	"/dev/stdout" }}]        |
+| Config.route.routes | Array containing event route configuration                   |                                                              |  
 
 Now Enjoy !!
  
