@@ -71,7 +71,7 @@ This chart bootstraps a Kubernetes Event Exporter deployment on a Kubernetes clu
 
 To install the chart with the release name my-release:
 
-```sh
+```yaml
 $ helm repo add bitnami https://charts.bitnami.com/bitnami
 $ helm install my-release bitnami/kubernetes-event-exporter
 ```
